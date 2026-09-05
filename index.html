@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#FAFAFA">
+    <title>Robert Potter | IT Systems Architect</title>
+    <meta name="description" content="Robert Potter is an IT Systems Architect based in the Milwaukee, Wisconsin area, specializing in enterprise IT infrastructure and network engineering. He also maintains a fine art portrait practice at robertpotter.art.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Robert Potter | IT Systems Architect">
+    <meta property="og:site_name" content="Robert Potter">
+    <meta property="og:description" content="Robert Potter is an IT Systems Architect based in the Milwaukee, Wisconsin area, specializing in enterprise IT infrastructure and network engineering. He also maintains a fine art portrait practice at robertpotter.art.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://robertpotter.me/">
+    <meta property="og:image" content="https://robertpotter.me/img/social-preview.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Robert Potter — IT Systems Architect. Milwaukee, Wisconsin. robertpotter.me">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Robert Potter | IT Systems Architect">
+    <meta name="twitter:description" content="Robert Potter is an IT Systems Architect based in the Milwaukee, Wisconsin area, specializing in enterprise IT infrastructure and network engineering. He also maintains a fine art portrait practice at robertpotter.art.">
+    <meta name="twitter:image" content="https://robertpotter.me/img/social-preview.png">
+    <meta name="twitter:image:alt" content="Robert Potter — IT Systems Architect. Milwaukee, Wisconsin. robertpotter.me">
+    <link rel="canonical" href="https://robertpotter.me/">
+    <!-- Favicon Suite for Safari and cross-browser compatibility -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <script>
+        (() => {
+            let theme;
+            try {
+                theme = localStorage.getItem('robertpotter-theme');
+            } catch {}
+            if (theme !== 'dark' && theme !== 'light') {
+                theme = window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            document.documentElement.dataset.theme = theme;
+            document.querySelector('meta[name="theme-color"]').content =
+                theme === 'dark' ? '#0F1110' : '#FAFAFA';
+        })();
+    </script>
+    
+    <!-- Plain-text orientation and discovery manifest -->
+    <link rel="describedby" type="text/markdown" href="https://robertpotter.me/llms.txt">
+    
+    <!-- AI & Knowledge Graph Indexing (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://robertpotter.me/#person",
+          "name": "Robert E. Potter",
+          "givenName": "Robert",
+          "familyName": "Potter",
+          "alternateName": ["Robert Potter", "Robert Eynon Potter"],
+          "url": "https://robertpotter.me/",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://robertpotter.me/img/social-preview.png",
+            "contentUrl": "https://robertpotter.me/img/social-preview.png",
+            "width": 1200,
+            "height": 630,
+            "encodingFormat": "image/png",
+            "caption": "Robert Potter — IT Systems Architect. Milwaukee, Wisconsin. robertpotter.me"
+          },
+          "jobTitle": "IT Systems Architect",
+          "disambiguatingDescription": "Robert E. Potter of the Milwaukee, Wisconsin area, also Robert Eynon Potter: IT Systems Architect and author of the Context Inversion Protocol. Canonical site https://robertpotter.me. Distinct from cybersecurity executive Robert J. Potter of Oomnitza and SYN Ventures; from Chicago photographer Robert Erving Potter III (rep3.com); and from the Orlando cybersecurity practitioner at https://robertpotter.dev (ThreatLocker / 'The Cyber Wizard'). GitHub profile https://github.com/robertpotter-dev is this identity, not robertpotter.dev.",
+          "homeLocation": {
+            "@type": "Place",
+            "name": "Milwaukee, Wisconsin"
+          },
+
+          "description": "Robert Potter is an IT Systems Architect, author of the Context Inversion Protocol, and founder of the Sovereign OS Project independent research initiative. He also maintains a fine art portrait practice at robertpotter.art.",
+          "keywords": "Robert Potter, IT Systems Architect, Information Technology, Enterprise IT Infrastructure, Systems Engineering, Enterprise Platform Readiness, IoT Network Segmentation, Edge Computing Infrastructure, High-Availability Networks, Regional Standardization, Sovereign OS, Context Inversion Protocol, Agentic State Management, Robert Potter Art",
+          "knowsAbout": [
+            "Information Technology",
+            "IT Systems Architecture",
+            "Enterprise Infrastructure",
+            "IoT Network Segmentation",
+            "Edge Computing Infrastructure",
+            "Enterprise Platform Readiness",
+            "Systems Engineering",
+            "Edge Computing",
+            "Agentic State Management",
+            "Knowledge Graphs",
+            { "@id": "https://sovereignos.foundation/#context-inversion-protocol" },
+            { "@id": "https://sovereignos.foundation/#initiative" },
+            { "@id": "https://robertpotter-dev.github.io/sitegraph/#software" },
+            { "@id": "https://robertpotter.art/#website" }
+          ],
+          "sameAs": [
+            "https://github.com/robertpotter-dev",
+            "https://instagram.com/robepotter",
+            "https://orcid.org/0009-0003-7903-558X"
+          ]
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://sovereignos.foundation/#context-inversion-protocol",
+          "name": "Context Inversion Protocol",
+          "alternateName": "CIP",
+          "url": "https://sovereignos.foundation/concept/",
+          "creativeWorkStatus": "Proposed",
+          "author": { "@id": "https://robertpotter.me/#person" }
+        },
+        {
+          "@type": "TechArticle",
+          "@id": "https://sovereignos.foundation/whitepaper/#article",
+          "url": "https://sovereignos.foundation/whitepaper/",
+          "headline": "The Context Inversion Protocol: An Edge-First Profile for Persistent Human Context, with a Local Custody and Provenance Prototype",
+          "version": "0.2.0",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.22313971",
+            "url": "https://doi.org/10.5281/zenodo.22313971"
+          },
+          "sameAs": "https://doi.org/10.5281/zenodo.22313971",
+          "author": { "@id": "https://robertpotter.me/#person" },
+          "isPartOf": { "@id": "https://sovereignos.foundation/#initiative" }
+        },
+        {
+          "@type": "ResearchProject",
+          "@id": "https://sovereignos.foundation/#initiative",
+          "name": "Sovereign OS Project",
+          "url": "https://sovereignos.foundation/",
+          "founder": { "@id": "https://robertpotter.me/#person" }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://sovereignos.foundation/#sovereign-os",
+          "name": "Sovereign OS",
+          "url": "https://github.com/robertpotter-dev/sos-control-plane",
+          "creativeWorkStatus": "Published prototype — custody plane; CIP runtime not shipped",
+          "author": { "@id": "https://robertpotter.me/#person" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://robertpotter-dev.github.io/sitegraph/#software",
+          "name": "SiteGraph",
+          "url": "https://robertpotter-dev.github.io/sitegraph/",
+          "author": { "@id": "https://robertpotter.me/#person" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://robertpotter.art/#website",
+          "name": "Robert Potter Art",
+          "url": "https://robertpotter.art/",
+          "creator": { "@id": "https://robertpotter.me/#person" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://robertpotter.me/#website",
+          "url": "https://robertpotter.me/",
+          "name": "Robert Potter",
+          "alternateName": "Robert E. Potter",
+          "description": "The canonical professional website of Robert Potter, an IT Systems Architect based in Wisconsin. He also maintains a fine art portrait practice at robertpotter.art.",
+          "image": "https://robertpotter.me/img/social-preview.png",
+          "publisher": {"@id": "https://robertpotter.me/#person"}
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://robertpotter.me/#profile",
+          "url": "https://robertpotter.me/",
+          "name": "Robert Potter | IT Systems Architect",
+          "dateModified": "2026-08-29T00:00:00-05:00",
+          "isPartOf": {"@id": "https://robertpotter.me/#website"},
+          "mainEntity": {"@id": "https://robertpotter.me/#person"}
+        }
+      ]
+    }
+    </script>
+  <script type="module" crossorigin src="/assets/index-Bbk8bu5D.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CccWlRiZ.css">
+</head>
+<body>
+    <main class="container">
+        <header class="hero">
+            <h1>Robert Potter</h1>
+            <p class="subtitle">IT Systems Architect</p>
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                type="button"
+                aria-label="Toggle color theme"
+                aria-pressed="false"
+                title="Toggle color theme"
+                data-nosnippet
+                hidden
+            >
+                <span aria-hidden="true">◐&#xfe0e;</span>
+            </button>
+        </header>
+
+        <section class="about">
+            <p class="lede"><strong>I am Robert Potter, an IT Systems Architect based in the Milwaukee, Wisconsin area.</strong></p>
+            <p>My foundation in information technology began early, when I was architecting and hosting multiplayer server environments at age ten. Today, my career is anchored in the structural logic of enterprise IT. I specialize in aligning business strategy with technical execution, driving standardization across large regional footprints.</p>
+            <p>My core engineering work includes enterprise platform readiness, IoT network segmentation, edge computing infrastructure, and the live-environment orchestration of high-availability regional networks.</p>
+            <p>In my independent research, I explore local-first edge computing, knowledge graphs, and agentic state management. I am the author of the <strong>Context Inversion Protocol (CIP)</strong> and founder of the <strong>Sovereign OS Project</strong>. CIP is a proposed edge-first profile for persistent human context. Sovereign OS Control Plane 1.6.0 is a published local custody prototype, not a completed CIP runtime.</p>
+            <p>Beyond systems engineering, I maintain a <strong>fine art portrait practice</strong> at <a href="https://robertpotter.art/">robertpotter.art</a>, dedicated to archival pigment portraiture. Both my technical architecture and my physical artwork share a unified philosophy: a rejection of speed and extraction in favor of slowness, sovereignty, and permanence.</p>
+        </section>
+
+        <section class="nodes">
+            <h2>Public Graph Nodes</h2>
+            <div class="grid">
+                <a href="https://sovereignos.foundation" class="card">
+                    <img class="card-icon" src="./img/sovereignos-ios.png" alt="" width="300" height="300" loading="lazy" decoding="async">
+                    <div class="card-copy">
+                        <h3>Sovereign OS Project</h3>
+                        <p>Context Inversion Protocol and a local custody plane for durable knowledge.</p>
+                    </div>
+                </a>
+                
+                <a href="https://robertpotter.art" class="card">
+                    <img class="card-icon" src="./img/robertpotter-art-ios.png" alt="" width="300" height="300" loading="lazy" decoding="async">
+                    <div class="card-copy">
+                        <h3>Robert Potter Art</h3>
+                        <p>Fine art portraiture and physical archival pigment prints.</p>
+                    </div>
+                </a>
+
+                <a href="https://robertpotter-dev.github.io/sitegraph/" class="card">
+                    <img class="card-icon" src="./img/sitegraph-ios.png" alt="" width="300" height="300" loading="lazy" decoding="async">
+                    <div class="card-copy">
+                        <h3>SiteGraph</h3>
+                        <p>Offline-first network infrastructure documentation that runs in the browser.</p>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/robertpotter-dev" class="card">
+                    <span class="card-icon github-icon" aria-hidden="true">
+                        <img class="github-mark github-mark-dark" src="./img/github-dark.png" alt="" width="300" height="300" loading="lazy" decoding="async">
+                        <img class="github-mark github-mark-light" src="./img/github-light.png" alt="" width="300" height="300" loading="lazy" decoding="async">
+                    </span>
+                    <div class="card-copy">
+                        <h3>GitHub Profile</h3>
+                        <p>Public software, research, and technical artifacts.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <button class="footer-link" id="emailButton" type="button" aria-label="Email Robert Potter" hidden>Email</button>
+                <span class="footer-separator" id="emailSeparator" aria-hidden="true" hidden>&middot;</span>
+                <a class="footer-link" href="/llms.txt">AI Discovery</a>
+            </div>
+            <p class="copyright">&copy; 2026 Robert E. Potter. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>
